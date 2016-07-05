@@ -1,0 +1,25 @@
+img {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+a {
+	display: inline-block;
+}
+#github {
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
+#github a {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+h1, h2, p, li {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}

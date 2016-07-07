@@ -6,11 +6,20 @@ img {
 a {
 	display: inline-block;
 }
+h1 {
+	color: #bb44aa
+}
+h2 {
+	color: #ffffff;
+}
 #github {
 	position: absolute;
 	top: 95%;
 	left: 50%;
 	transform: translate(-50%, -100%);
+}
+#github h2 {
+	color: #aaaaaa;
 }
 #github a {
 	position: relative;
@@ -22,4 +31,41 @@ h1, h2, p, li {
 }
 ul {
 	list-style-type: none;
+	background: #1976d0;
+}
+body {
+	background: url("Desert.jpg") 0/100% 100% no-repeat;
+}
+.dropdown {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.dropdown h2 {
+	text-align: center;
+	width: 50%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: #2380dc;
+}
+#dropdown-arrow {
+	background: url("DropdownArrows.png");
+	height: 25px;
+	width: 25px;
+	background-position: 0 0;
+}
+#dropdown-arrow.down {
+	background-position: 0 40px;
+	
+}
+.dropdown ul {
+	visibility: hidden;
+}
+.dropdown-list li a{
+	color: #bbbbbb;
+}
+.dropdown ul.open {
+	visibility: visible;
 }
